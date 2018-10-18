@@ -46,3 +46,5 @@ execute 'start_hawkagent' do
   user config_user
   group config_group
 end
+
+# domain will be created and hawkagent will started after executing
