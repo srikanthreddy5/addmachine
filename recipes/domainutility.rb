@@ -6,7 +6,6 @@
 
 # Run the domainutility to create domain
 #
-
 config_user = node['addmachine-rv']['config']['user']
 config_group = node['addmachine-rv']['config']['group']
 tibco_instance_dir = node['addmachine-rv']['config']['tibco_instance_dir']
@@ -46,5 +45,6 @@ execute 'start_hawkagent' do
   user config_user
   group config_group
 end
+
 
 # domain will be created and hawkagent will started after executing
