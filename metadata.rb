@@ -1,5 +1,5 @@
 name 'addmachine'
-maintainer ''
+maintainer 'Srikanth '
 maintainer_email '@citi.com'
 license 'all_rights'
 description 'Add machine to an RV based domain'
